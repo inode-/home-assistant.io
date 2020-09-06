@@ -138,6 +138,11 @@ payload_medium_speed:
   required: false
   type: string
   default: medium
+payload_off_speed:
+  description: The payload that represents the fan's off speed.
+  required: false
+  type: string
+  default: off
 payload_not_available:
   description: The payload that represents the unavailable state.
   required: false
